@@ -1,0 +1,3 @@
+package: github.com/dt/glide-diff-parser
+import:
+- package: gopkg.in/yaml.v2
