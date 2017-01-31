@@ -38,7 +38,10 @@ var GithubPrefixes = map[string]string{
 	"google.golang.org/appengine": "github.com/golang/appengine",
 	"google.golang.org/grpc":      "github.com/grpc/grpc-go",
 	"gopkg.in/inf.v0":             "github.com/go-inf/inf",
+	"gopkg.in/yaml.v2":            "github.com/go-yaml/yaml",
 	"honnef.co/go/":               "github.com/dominikh/go-",
+	"cloud.google.com/go":         "github.com/GoogleCloudPlatform/google-cloud-go",
+	"google.golang.org/api":       "github.com/google/google-api-go-client",
 }
 
 func (u update) compareLink() string {
