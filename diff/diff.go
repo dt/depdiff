@@ -84,7 +84,7 @@ func (c Changes) Links() {
 		if link := i.compareLink(); link != "" {
 			fmt.Println(link)
 		} else {
-			fmt.Fprintf(os.Stderr, "cannot get link for %s (%s -> %s)", i.name, i.from[:8], i.to[:8])
+			fmt.Fprintf(os.Stderr, "cannot get link for %s (%s -> %s)\n", i.name, i.from[:8], i.to[:8])
 		}
 	}
 }
