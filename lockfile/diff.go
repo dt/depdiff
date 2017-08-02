@@ -42,6 +42,7 @@ var GithubPrefixes = map[string]string{
 	"honnef.co/go/":               "github.com/dominikh/go-",
 	"cloud.google.com/go":         "github.com/GoogleCloudPlatform/google-cloud-go",
 	"google.golang.org/api":       "github.com/google/google-api-go-client",
+	"google.golang.org/genproto":  "github.com/google/go-genproto",
 }
 
 func (u update) compareLink() string {
